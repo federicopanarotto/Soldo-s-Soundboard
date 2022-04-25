@@ -14,4 +14,4 @@ The webpage is currently online and you can reach it clicking [here](https://fed
 https://federicopanarotto.github.io/Soldo-s-Soundboard/
 #
 
-> Federico Panarotto
+> 3CI Swag Gang 2022
