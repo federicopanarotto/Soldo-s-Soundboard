@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soldo's SoundBoard</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>SOLDO'S SOUNDBOARD</h1>
+        </div>
+        <div class="keys">
+            <!-- sto povero ragazzo -->
+            <div data-key="65" class="key">
+                <kbd>A</kbd>
+                <span class="sound">sto povero ragazzo</span>
+            </div>
+            <!-- ma pk -->
+            <div data-key="83" class="key">
+                <kbd>S</kbd>
+                <span class="sound">ma pk</span>
+            </div>
+            <!-- come se chiama -->
+            <div data-key="68" class="key">
+                <kbd>D</kbd>
+                <span class="sound">come si chiama</span>
+            </div>
+            <!-- l'è chiaro -->
+            <div data-key="70" class="key">
+                <kbd>F</kbd>
+                <span class="sound">l'è chiaro</span>
+            </div>
+            <!-- pe me no -->
+            <div data-key="71" class="key">
+                <kbd>G</kbd>
+                <span class="sound">pe me no</span>
+            </div>
+            <!-- questi sono raccomandati -->
+            <div data-key="72" class="key">
+                <kbd>H</kbd>
+                <span class="sound">questi sono raccomandati</span>
+            </div>
+            <!-- lo so che tua madre c'ha i suoi problemi -->
+            <div data-key="74" class="key">
+                <kbd>J</kbd>
+                <span class="sound">lo so che tua madre c'ha i suoi problemi</span>
+            </div>
+            <!-- eh -->
+            <div data-key="75" class="key">
+                <kbd>K</kbd>
+                <span class="sound">eh</span>
+            </div>
+            <!-- la smettete -->
+            <div data-key="76" class="key">
+                <kbd>L</kbd>
+                <span class="sound">la smettete</span>
+            </div>
+            <!-- ma riesci a capire quello che ti dico -->
+            <div data-key="86" class="key">
+                <kbd>V</kbd>
+                <span class="sound">ma riesci a capire quello che ti dico</span>
+            </div>
+            <!-- calmino -->
+            <div data-key="66" class="key">
+                <kbd>B</kbd>
+                <span class="sound">calmino</span>
+            </div>
+            <!-- facciamo partirlo -->
+            <div data-key="78" class="key">
+                <kbd>N</kbd>
+                <span class="sound">facciamo partirlo</span>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; Federico Panarotto and Co. 2022. Soldo is not a our trademark. All rights reserved.</p>
+        </div>
+    </div>
+
+    <audio data-key="65" src="./src/sounds/sto povero ragazzo.mp3"></audio>
+    <audio data-key="83" src="./src/sounds/ma pk.mp3"></audio>
+    <audio data-key="68" src="./src/sounds/come si chiama.mp3"></audio>
+    <audio data-key="70" src="./src/sounds/l'è chiaro.mp3"></audio>
+    <audio data-key="71" src="./src/sounds/pe me no.mp3"></audio>
+    <audio data-key="72" src="./src/sounds/questi sono raccomandati.mp3"></audio>
+    <audio data-key="74" src="./src/sounds/lo so che tua madre c'ha i suoi problemi.mp3"></audio>
+    <audio data-key="75" src="./src/sounds/eh.mp3"></audio>
+    <audio data-key="76" src="./src/sounds/la smettete.mp3"></audio>
+    <audio data-key="86" src="./src/sounds/ma riesci a capire quello che dico.mp3"></audio>
+    <audio data-key="66" src="./src/sounds/calmino.mp3"></audio>
+    <audio data-key="78" src="./src/sounds/facciamo partirlo.mp3"></audio>
+
+    <script src="./src/app.js"></script>
+</body>
+
+</html>
