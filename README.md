@@ -7,7 +7,7 @@
     I made it with html, css and js.
     I think it is very cool.
 
-![Soldo's Soundboard](https://cdn.discordapp.com/attachments/765646227303432232/967962454015479848/unknown.png)
+![Soldo's Soundboard](https://cdn.discordapp.com/attachments/765646227303432232/968134193924145172/saasasa.png)
 
 ### WebPage
 The webpage is currently online and you can reach it clicking [here](https://federicopanarotto.github.io/Soldo-s-Soundboard/). <br>
